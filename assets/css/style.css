@@ -1,0 +1,112 @@
+#main {
+    margin: 50px auto 100px auto;
+    width: 960px;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333;
+    background-color: white;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: thin;
+
+    
+    
+   
+}
+h1 {
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    padding:  25px;
+    border-bottom: #cccccc;
+
+
+
+}
+#bar{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.nav {
+    margin: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    list-style: none;
+    text-align: right;
+    color: #cccccc;
+    padding: 26px 0 30px 0;
+    
+   
+}
+.nav >li {
+    display: inline-block;
+    padding-right: 50px;
+    
+}
+.nav >li >a:hover{
+    color:#333
+}
+#line {
+    padding: 0;
+
+}
+
+#meandsam {
+    width: 150x;
+    height: 200px;
+    size: 200px;
+    float: right;
+    
+}
+
+.namebox {
+    background-color: teal;
+    padding: 0 25px;
+    color: azure;
+    text-align: center;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #cccccc;
+}
+#name {
+    padding: 20px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    border-top: 5px solid teal;
+    text-align: center;
+}
+body {
+    padding: 0;
+    margin:0;
+    background-image:url("../images/concrete-texture.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.copyright {
+    color:white;
+    font-size: x-small;
+    font-style: "Arial', 'Helvetica Neue', Helvetica, sans-serif";
+
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #333;
+  
+
+}
+#letteringforcopyright {
+    padding: 0;
+}
