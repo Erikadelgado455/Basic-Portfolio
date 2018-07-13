@@ -2,8 +2,6 @@
     margin: 50px auto 100px auto;
     width: 960px;;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 150%;
     color: #333;
     background-color: white;
     border-style: solid;
@@ -19,6 +17,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     padding:  25px;
     border-bottom: #cccccc;
+    font-size: x-large;
 
 
 
@@ -52,14 +51,13 @@ h1 {
     padding: 0;
 
 }
-
-#meandsam {
-    width: 150x;
-    height: 200px;
-    size: 200px;
-    float: right;
-    
+#mypicture{
+    float:left;
+    margin: 10px;
 }
+
+
+
 
 .namebox {
     background-color: teal;
@@ -104,9 +102,89 @@ body {
 a:-webkit-any-link {
     text-decoration: none;
     color: #333;
-  
-
-}
+  }
 #letteringforcopyright {
     padding: 0;
 }
+#paragraph{
+    margin: 10px;
+
+}
+hr {
+    border-color: #cccccc;
+    border-style: solid;
+    margin: 20px;
+
+}
+.contact{
+    width:960px;
+    margin: 50px 200px auto 200px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-style:solid;
+    border-color: #666666;
+    border-width: thin; 
+    padding: 25px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type=submit]:hover {
+    background-color:#4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h2{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    padding:  25px;
+    font-size: x-large;
+    border-bottom: #cccccc
+}
+h3{
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding:  25px;
+    border-bottom: #cccccc
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  } 
